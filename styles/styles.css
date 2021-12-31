@@ -300,6 +300,9 @@
   border-radius: 10px;
   position: relative;
 }
+* body .main .sixthContent .secondaryWrapper .secondaryContainer .descriptionSecondaryContainer {
+  margin-top: 45px;
+}
 * body .main .sixthContent .secondaryWrapper .secondaryContainer .titleSecondaryContainer {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
@@ -341,6 +344,16 @@
 }
 * body .main .sixthContent .secondaryWrapper .secondaryContainer .buttonSecondaryContainer:hover {
   filter: brightness(0.9);
+}
+* body .footer {
+  height: 50px;
+}
+* body .footer .textFooter {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #696871;
 }
 
 /*# sourceMappingURL=styles.css.map */
