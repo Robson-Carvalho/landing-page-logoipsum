@@ -133,6 +133,7 @@
 * body .main .thirdContent, * body .main .fourthContent {
   max-width: 1146px;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
@@ -173,6 +174,43 @@
   line-height: 20px;
   letter-spacing: -0.531474px;
   color: #5454D4;
+}
+* body .main .fifthContent {
+  margin-top: 138px;
+  max-width: 1146px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+* body .main .fifthContent .itemsFifthContent {
+  display: flex;
+  flex-direction: column;
+}
+* body .main .fifthContent .itemsFifthContent .imageItemFifthContent {
+  margin-bottom: 7px;
+  width: 151px;
+  height: 97px;
+  margin: 0 auto;
+}
+* body .main .fifthContent .itemsFifthContent .titleItemFifthContent {
+  margin-bottom: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  line-height: 36px;
+  letter-spacing: -0.750316px;
+  color: #19191B;
+}
+* body .main .fifthContent .itemsFifthContent .subtitleItemFifthContent {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 16px;
+  letter-spacing: -0.500211px;
+  color: #696871;
 }
 
 /*# sourceMappingURL=styles.css.map */
