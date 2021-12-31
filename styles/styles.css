@@ -124,5 +124,46 @@
   width: 117.346px;
   height: 31.282px;
 }
+* body .main .thirdContent {
+  max-width: 1146px;
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+* body .main .thirdContent .textThridContent {
+  max-width: 556px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+* body .main .thirdContent .textThridContent .imageThirdContent {
+  width: 348.5px;
+  height: 473px;
+}
+* body .main .thirdContent .textThridContent .titleThridContent {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: -1.56316px;
+  line-height: 57px;
+  color: #19191B;
+}
+* body .main .thirdContent .textThridContent .subtileThridContent {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.625263px;
+  color: #696871;
+}
+* body .main .thirdContent .textThridContent .linkThridContent {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.531474px;
+  color: #5454D4;
+}
 
 /*# sourceMappingURL=styles.css.map */
