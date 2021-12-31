@@ -125,23 +125,32 @@
   height: 31.282px;
 }
 * body .main .thirdContent {
-  max-width: 1146px;
   margin-top: 150px;
+}
+* body .main .fourthContent {
+  margin-top: 81px;
+}
+* body .main .thirdContent, * body .main .fourthContent {
+  max-width: 1146px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-* body .main .thirdContent .textThridContent {
+* body .main .thirdContent .textThridContent, * body .main .thirdContent .textFourthContent, * body .main .fourthContent .textThridContent, * body .main .fourthContent .textFourthContent {
   max-width: 556px;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-* body .main .thirdContent .textThridContent .imageThirdContent {
+* body .main .thirdContent .textThridContent .imageThirdContent, * body .main .thirdContent .textFourthContent .imageThirdContent, * body .main .fourthContent .textThridContent .imageThirdContent, * body .main .fourthContent .textFourthContent .imageThirdContent {
   width: 348.5px;
   height: 473px;
 }
-* body .main .thirdContent .textThridContent .titleThridContent {
+* body .main .thirdContent .textThridContent .imageFourthContent, * body .main .thirdContent .textFourthContent .imageFourthContent, * body .main .fourthContent .textThridContent .imageFourthContent, * body .main .fourthContent .textFourthContent .imageFourthContent {
+  width: 346.37px;
+  height: 474px;
+}
+* body .main .thirdContent .textThridContent .titleThridContent, * body .main .thirdContent .textThridContent .titleFourthContent, * body .main .thirdContent .textFourthContent .titleThridContent, * body .main .thirdContent .textFourthContent .titleFourthContent, * body .main .fourthContent .textThridContent .titleThridContent, * body .main .fourthContent .textThridContent .titleFourthContent, * body .main .fourthContent .textFourthContent .titleThridContent, * body .main .fourthContent .textFourthContent .titleFourthContent {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 50px;
@@ -149,7 +158,7 @@
   line-height: 57px;
   color: #19191B;
 }
-* body .main .thirdContent .textThridContent .subtileThridContent {
+* body .main .thirdContent .textThridContent .subtileThridContent, * body .main .thirdContent .textThridContent .subtitleFourthContent, * body .main .thirdContent .textFourthContent .subtileThridContent, * body .main .thirdContent .textFourthContent .subtitleFourthContent, * body .main .fourthContent .textThridContent .subtileThridContent, * body .main .fourthContent .textThridContent .subtitleFourthContent, * body .main .fourthContent .textFourthContent .subtileThridContent, * body .main .fourthContent .textFourthContent .subtitleFourthContent {
   font-family: "Mulish", sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -157,7 +166,7 @@
   letter-spacing: -0.625263px;
   color: #696871;
 }
-* body .main .thirdContent .textThridContent .linkThridContent {
+* body .main .thirdContent .textThridContent .linkThridContent, * body .main .thirdContent .textThridContent .linkFourthContent, * body .main .thirdContent .textFourthContent .linkThridContent, * body .main .thirdContent .textFourthContent .linkFourthContent, * body .main .fourthContent .textThridContent .linkThridContent, * body .main .fourthContent .textThridContent .linkFourthContent, * body .main .fourthContent .textFourthContent .linkThridContent, * body .main .fourthContent .textFourthContent .linkFourthContent {
   font-family: "Mulish", sans-serif;
   font-weight: 700;
   font-size: 17px;
