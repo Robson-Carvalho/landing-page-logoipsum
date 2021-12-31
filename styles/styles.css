@@ -112,5 +112,17 @@
   width: 580px;
   height: 644px;
 }
+* body .main .secondaryContent {
+  max-width: 1146px;
+  margin-top: 104px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+* body .main .secondaryContent .itemsSecondaryContent {
+  width: 117.346px;
+  height: 31.282px;
+}
 
 /*# sourceMappingURL=styles.css.map */
