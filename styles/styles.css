@@ -49,5 +49,68 @@
 * body .header .buttonHeader:hover {
   filter: brightness(0.9);
 }
+* body .main {
+  max-width: 1070px;
+  margin: 68px auto 158px auto;
+}
+* body .main .primaryContent {
+  max-width: 1146px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 77px;
+}
+* body .main .primaryContent .textPrimaryContent {
+  max-width: 459px;
+}
+* body .main .primaryContent .textPrimaryContent .titlePrimaryContent {
+  font-family: "DM Sans", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  line-height: 77px;
+  letter-spacing: -2.50105px;
+  color: #19191B;
+}
+* body .main .primaryContent .textPrimaryContent .subtilePrimaryContent {
+  font-family: "Mulish", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 50px;
+  line-height: 30px;
+  letter-spacing: -0.63px;
+  color: #696871;
+}
+* body .main .primaryContent .textPrimaryContent .actionsPrimaryContent {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+* body .main .primaryContent .textPrimaryContent .actionsPrimaryContent .buttonPrimaryContent {
+  width: 211px;
+  height: 60px;
+  background-color: #5454D4;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "DM Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #FFFFFF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transition: 0.2s;
+}
+* body .main .primaryContent .textPrimaryContent .actionsPrimaryContent .buttonPrimaryContent:hover {
+  filter: brightness(0.9);
+}
+* body .main .primaryContent .textPrimaryContent .actionsPrimaryContent .logoPrimaryContent {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+* body .main .primaryContent .imagePrimaryContent {
+  width: 580px;
+  height: 644px;
+}
 
 /*# sourceMappingURL=styles.css.map */
